@@ -1,60 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Jonathan Alejandro Gutiérrez Hernández</title>
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    <header>
-        <h1>Portafolio de Jonathan Alejandro Gutiérrez Hernández</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Innovador proactivo, cuento con capacidad para desarrollar y diseñar aplicaciones web y móviles. Se gestionar proyectos, resolver problemas que surgen en el desarrollo. Organizado capaz de realizar más de una tarea a la vez.</p>
-        <p>Me gusta jugar videojuegos y crear proyectos para seguir aprendiendo y mejorar en el proceso.</p> 
-    </section>
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Vigsy</h3>
-            <p>Originalmente la diseñé para poder visualizar varias cámaras ESP32 conectadas a la red local, aunque también se puede utilizar para otros proyectos en los que se utilicen cámaras IP. Actualmente la aplicación puede tomar una captura de la vista que tiene, también está previsto añadir una grabación de los vídeos proporcionados por la cámara.</p>
-            <a href="https://github.com/JonaAlexGuti/camaras_seguridad">Ver en GitHub</a>
-            <p><a href="https://play.google.com/store/apps/details?id=com.mx.jonathan.gutierrez.camaras_seguridad&pcampaignid=web_share">Ver en PlayStore</a></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jonathan Gutiérrez | Developer</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
+        <noscript>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+        </noscript>
+        <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+        <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+        <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+        <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+        <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+        <noscript>
+          <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+          </style>
+        </noscript>
+    </head>
+    
+    <body>
+      <header>
+        <div class="cover bg-light">
+          <div class="container px-3">
+            <div class="row">
+              <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/7081473.png" alt="hello"/></div>
+              <div class="col-lg-6">
+                <div class="mt-5">
+                  <p class="lead text-uppercase mb-1">Hello</p>
+                  <h1 class="intro-title" data-aos="fade-left" data-aos-delay="50">I’m Jonathan Alejandro Gutiérrez Hernández</h1>
+                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Web & Mobile Application Developer</p>
+                  <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+                    <nav role="navigation">
+                      <ul class="nav justify-content-left">
+                        <li class="nav-item"><a class="nav-link" href="linkedin.com/in/jonathan-alejandro-guti%C3%A9rrez-hern%C3%A1ndez-b35853180" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.github.com/JonaAlexGuti" title="GitHub"><i class="fab fa-github"></i><span class="menu-title sr-only">GitHub</span></a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="wave-bg"></div>
+      </header>
+      <div class="section pt-4 px-3 px-lg-4" id="about">
+        <div class="container-narrow">
+            <div class="col-md-6">
+              <h2 class="h4 my-2">Hello again</h2>
+              <p>I am passionate about software development. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+              <p>I like to play video games and create projects to keep learning and improving in the process.</p>
+              <div class="row mt-3">
+                <div class="col-sm-2">
+                  <div class="pb-1">Age:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">28</div>
+                </div>
 
-        <div class="project">
-            <h3>DoorIO</h3>
-            <p>Aplicación móvil para SO Android y IOS en la cual se propone crear un sistema para la automatización de entradas a espacios físicos.</p>
-            <a href="https://github.com/JonaAlexGuti/IODoor">Ver en GitHub</a>
+                <div class="col-sm-2">
+                  <div class="pb-1">Staus:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">Available</div>
+                </div>
+              </div>
+            </div>
+
         </div>
-        <div class="project">
-            <h3>Hunting Home</h3>
-            <p>Aplicación móvil para SO Android en la cual se propone ser un vínculo entre posibles arrendatarios y arrendadores.</p>
-            <a href="https://github.com/JonaAlexGuti/hunting_home">Ver en GitHub</a>
+      </div>
+      <div class="section px-3 px-lg-4 pt-5" id="services">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">My Services</h2>
+          </div>
+          <div class="text-center">
+            <p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for app and recently i'm working on flutter based web-design. I can quickly maximize timely deliverables for real-time schemas.</p>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="96" height="96" alt="web design"/>
+              <div class="h5">Web Design</div>
+            </div>
+
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/ui-ux.svg" width="96" height="96" alt="ui-ux"/>
+              <div class="h5">UI/UX</div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="96" height="96" alt="app development"/>
+              <div class="h5">App Development</div>
+            </div>
+          </div>
         </div>
-        <div class="project">
-            <h3>Reclutamiento</h3>
-            <p>Este proyecto es acerca de una pokedex.</p>
-            <a href="https://github.com/JonaAlexGuti/reclutamiento">Ver en GitHub</a>
+      </div>
+      <div class="section px-3 px-lg-4 pt-5" id="skills">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">My Skills</h2>
+          </div>
+          <div class="text-center">
+            <p class="mx-auto mb-3" style="max-width:600px">I am a quick learner and specialize in multitude of skills required for Application Development</p>
+          </div>
+          <div class="bg-light p-3">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">Flutter</span><span>90%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>30%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>70%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>80%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Agrega más proyectos aquí -->
-    </section>
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Correo: <a href="jonathan.a.gtz@gmail.com">jonathan.a.gtz@gmail.com</a></p>
-        <p>Teléfono: <a>(+52)4921501468</a> </p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Jonathan Alejandro Gutiérrez Hernández. Todos los derechos reservados.</p>
-    </footer>
-</body>
+      </div>
+      <div class="section px-2 px-lg-4 pt-5" id="portfolio">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">Portfolio </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Vigsy</h3>
+                      <div class="text-muted text-small"><a href="https://github.com/JonaAlexGuti/camaras_seguridad">Go to GitHub</a></div>
+                      <div class="text-muted text-small"><a href="https://play.google.com/store/apps/details?id=com.mx.jonathan.gutierrez.camaras_seguridad&pcampaignid=web_share">Go to PlayStore</a></p></div>
+                    </div><img src="images/services/app-development.svg" width="48" height="48" alt="ui-ux"/>
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>I originally designed it to be able to view several ESP32 cameras connected to the local network, although it can also be used for other projects using IP cameras. Currently the application can take a snapshot of the view you have, it is also planned to add a recording of the videos provided by the camera.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1">DoorIO</h3>
+                        <div class="text-muted text-small"><a href="https://github.com/JonaAlexGuti/IODoor">Go to GitHub</a></div>
+                      </div><img src="images/services/app-development.svg" width="48" height="48" alt="ui-ux"/>
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>Mobile application for Android and IOS OS in which we propose to create a system for the automation of entrances to physical spaces.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1">Hunting Home</h3>
+                        <div class="text-muted text-small"><a href="https://github.com/JonaAlexGuti/hunting_home">Go to GitHub</a></div>
+                      </div><img src="images/services/app-development.svg" width="48" height="48" alt="ui-ux"/>
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>Mobile application for Android OS which aims to be a link between potential tenants and landlords.</p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">Contact Me</h2>
+          </div>
+          
+
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="mt-3 px-1">
+                <div class="h5">Let’s talk, how I can help you?</div>
+                <p>If you like my work and want to avail my services then drop me a message. </p>
+                <p>See you soon</p>
+              </div>
+              <div class="mt-53 px-1">
+                <div class="row"> 
+                  <div class="col-sm-2">
+                    <div class="pb-1">Email:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">jonathan.a.gtz@gmail.com</div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="pb-1">Phone:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">(+52) 4921501468</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <footer class="pt-4 pb-4 text-center bg-light">
+        <div class="container">
+          <div class="my-3">
+            <p>&copy; 2024 Jonathan Alejandro Gutiérrez Hernández. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer></div>
+          </div>
+          <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
+          <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+          <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+          <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+          <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+          <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+          <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+          <script src="./scripts/main.js?ver=1.2.0"></script>
+    </body>
 </html>
